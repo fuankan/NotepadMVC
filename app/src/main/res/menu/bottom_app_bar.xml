@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/copyBtm"
+        android:icon="@drawable/ic_copy_btm"
+        android:title="@string/copy"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+
+    <item
+        android:id="@+id/pasteBtm"
+        android:icon="@drawable/ic_paste_btm"
+        android:title="@string/paste"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+
+    <item
+        android:id="@+id/undoBtm"
+        android:icon="@drawable/ic_undo_btm"
+        android:title="@string/undo"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+    <item
+        android:id="@+id/redoBtm"
+        android:icon="@drawable/ic_redo_btm"
+        android:title="@string/redo"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+
+    <item
+        android:id="@+id/openBtm"
+        android:contentDescription="@string/open"
+        android:icon="@drawable/ic_open_file_btm"
+        android:title="@string/open"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+
+    <item
+        android:id="@+id/newFileBtm"
+        android:icon="@drawable/ic_new_file_btm"
+        android:title="@string/_new"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+
+    <item
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction"
+        android:title="" />
+
+</menu>
